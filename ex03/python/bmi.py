@@ -3,7 +3,7 @@ print('(1) Metric (m, kg) or (2) Non-Metric (ft, pounds)?')
 chosen_system = input('Please choose: ')
 
 if (chosen_system != '1' and chosen_system != '2'):
-  print('You have to choose either metric or non-metric. Shutting down...')
+  print('You have to choose either metric or non-metric. Shutting down.....')
   exit()
 
 height_unit = 'meters'
