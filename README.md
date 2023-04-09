@@ -14,6 +14,7 @@ docker run -d -p 3000:3000 <imageName>
 docker stop <imageName>
 ```
 
+- Run the image in interactive mode
 ```
 docker run -it <imageName>
 ```
