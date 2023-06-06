@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  mongo:
+    image: mongo
+    volumes:
+      - /home/manjunath/db/mongo:/data/db
+
+  redis:
+    image: redis
+
+  goals:
+    build: ./
+    depends_on:
+      - mongo
+      - redis
+    ports:
+      - "3500:3000"
+
+
+

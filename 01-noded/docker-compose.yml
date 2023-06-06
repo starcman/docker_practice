@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  nodeapp:
+    build: .
+    ports: 
+      - "1200:8000"
